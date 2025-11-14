@@ -1,1 +1,41 @@
-# task
+# Bead Audit Agent Challenge
+
+## Overview
+
+Welcome to the our Audit Agent Challenge. This task will give you a flavour of the work you will be doing at Bead and help us understand how you tackle loosely defined problems. This repository contains all instructions and supporting documents needed to get started.
+
+## Background
+
+Many tasks in the world of auditing require verifying that a specific policy or procedure has been followed. To assess this, the auditor selects a random sample and collects evidence to verify whether the requirements are met for each.
+
+## The Task
+
+We have taken one particular example of this: a control that ensures systems can't be changed unless a set of prerequisites is true. You are provided with the control description, control attributes, and a few evidence samples, in this case, screenshots of GitHub pull requests showing the changes made.
+
+## Expected Output
+
+* For each sample and control attribute provide a JSON object that includeds the assements and contexual details of how the conclussion was formed
+* The assessment can be SUCCESS, FAIL, FURTHER_EVIDENCE_REQUIRED
+
+## Constraints
+
+* You can use any langugage, framework, models, APIs or technologies you feel best suited for the task.
+* There are no cost or performance requirements. Accuracy is the only objective for now.
+* We will let you decide how generic your solution should be. For this task, it is enough if it can cover this particular control with various inputs.
+* Auditing often means making judgments with imperfect input. A good auditor balances detail and efficiency.
+* The more detailed and auditable the output, the better.
+
+## Submission
+
+1. Fork this repository
+2. Add your solution to the `src` folder and provide a CLI command to run against the sample folder
+3. Please ensure that there are detailed instructions to set up and run your code
+
+# Next Steps
+
+After submission, we will test your solution with more samples for this control and discuss the results with you.
+
+## Notes
+
+* If there are any open questions that need clarification you can reach out to the team.
+* If you came accross this repostory and think this is a fun problem to solve - we are hiring https://usebead.ai/careers
