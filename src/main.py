@@ -26,6 +26,6 @@ def run_audit(sample: int):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description='Run audit on a sample')
-    parser.add_argument('--sample', '-s', type=int, default=2, help='Sample number to audit (default: 2)')
+    parser.add_argument('--sample', '-s', type=int, default=1, help='Sample number to audit (default: 1)')
     args = parser.parse_args()
     run_audit(sample=args.sample)
